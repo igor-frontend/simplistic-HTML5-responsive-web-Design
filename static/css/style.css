@@ -1,0 +1,144 @@
+
+body {
+    background-color:rgb(37, 37, 37) ;
+}
+.header{
+    width: 100%;
+    height:200px;
+    border:solid 1px rgb(37, 37, 37);
+    background-color: rgb(37, 37, 37);
+    margin-top:-8px;
+    text-align: center;
+    margin-left: px;
+    
+}
+h1{
+    color:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size:48px;
+    position:relative;
+    align-self: center;
+}
+#nav{
+    display:inline;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.a {
+    color:white;
+    text-decoration:none ;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size:24px;
+    font-weight:600;
+}
+#hero{
+    height:420px;
+    border:solid 1px black;
+    margin-left: -19px;
+    margin-right: -8px;
+    background:linear-gradient(to bottom right,red,blue);
+    width: 109%;
+}
+
+#text{
+    margin:9em;
+    text-align:center;
+    margin-left:2em;
+}
+h2 {
+    color:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size:28px;
+    text-align: center;
+}
+p {
+    color:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size:18px;
+    
+}
+h3{
+    color:white;
+    height:40px;
+    margin-top: 14px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size:18px;
+    font-weight: 100;
+    border:1px solid white;
+}
+
+.label {
+    color:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size:18px;
+    display:inline;
+}
+#inputfield {
+    height:100px
+}
+#button{
+    color:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(37, 37, 37);
+    height:44px;
+    width:120px;
+    font-size:18px;
+    font-weight:500
+}
+.i1{
+    margin-bottom: 15px;
+
+}
+h4{
+    color:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:20px;
+    display:inline;
+    margin-right:20px;
+}
+#submit {
+    background: linear-gradient(to bottom right,red,blue);
+    color:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    height:30px;
+    width:90px;
+    margin-top:30px;
+    border:none;
+}
+#submit:hover{
+    background: linear-gradient(to bottom right,blue,red);
+    transform:scale(1.1)  rotate(6deg)  translateX(3px);
+    color:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+#button:hover{
+    border:1px solid rgb(255, 255, 255);
+    animation-name: example;
+    animation-duration: 10s;
+}
+@keyframes example {
+    0%   {background-color: rgb(37, 37, 37);}
+    25%  {background-color: grey;}
+    100% {background-color: rgb(37, 37, 37);}
+  }
+@media (max-width: 380px) {
+    .header {
+        height: 240px; 
+    }
+    #hero{
+        height:500px;
+    }
+}
+@media (max-width: 338px) {
+    .header {
+        height: 240px; 
+    }
+    #hero{
+        height:550px;
+    }
+}
+
