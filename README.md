@@ -7,3 +7,4 @@ If personal use wanted advise me for info , help and info of the code writing an
 
 ![image](https://github.com/user-attachments/assets/36e55349-91bd-4495-8bc0-b8eb583f6688)
 
+The lighthouse report is fine for a good website.
